@@ -1,0 +1,218 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/*background-image: url(img/code-institute.jpg);
+ 	background-size: cover;
+ 	color: #ffffff;*/
+ 	background-color: #eee;
+}
+
+h1{
+	font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	text-align: left;
+}
+
+p {
+	font-size: .9rem;
+}
+
+div {
+	border-radius: 4px;
+}
+
+.card_image {
+	width: 100%;
+	height: 200px;
+}
+
+.bottom_button {
+	display: flex;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	background-color:rgba(129, 187, 201,.85);
+	text-align: center;
+	padding: 1em .75em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.card_bottom {
+	display: flex;
+	flex-flow:column;
+}
+
+.card_head {
+	flex:0;
+}
+
+.card_para {
+	flex:1 0 auto;
+	display: none;
+}
+
+#container {
+	display: flex;		/* makes container a flexbox*/
+	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1050px;	
+}
+
+#logo {
+	width: 800px;
+	margin: auto;
+}
+
+
+.card {
+	flex:1; /* */
+	display: flex;	/* make the contents controllable by flexbox*/
+	flex-flow:column;	/* */
+	min-width: 240px; /**/
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.highlight_stream {
+	background-color: #EB5255;
+}
+
+#my_footer {
+	width:100%;
+	text-align: center;
+}
+
+#copyright {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*************************
+Navigation
+**************************/
+
+nav {
+	font-family: 'Press Start 2P', cursive;
+	background-color: #eee;
+	margin: 30px auto;
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	justify-content:space-between;
+	flex-flow: row;
+	align-items:baseline;
+	border-radius: 10px;
+	list-style-type: none; /*Remove Bullets*/
+	padding: 0;	
+}
+
+li {
+	flex:1;
+	height: 30px;
+	font-family: Dosis;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#logoNav {
+	flex:6;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	color: #85bb65;
+}
+
+.description-heading {
+    font-size: 3.8em;
+    float: left;
+    font-family: Dosis;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+}
+
+.go-button {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.go-button:hover {
+    background-color: #85bb65;
+}
+
+.info-button {
+    margin-top: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.info-button:hover {
+    background-color: #eed202;
+}
+
+.underline {
+    text-decoration:underline;
+}
+
+.border {
+    border: solid 5px #ccc;
+}
+
+/*************************
+footer
+**************************/
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li {
+    padding-top: 80px;
+}
+
+.social-links li a i:hover {
+    background-color: #85bb65;
+}
+
+/*************************
+footer
+**************************/
+
+#map {
+      height: 100%;
+    }
