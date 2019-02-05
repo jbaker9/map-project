@@ -145,6 +145,39 @@ li {
     padding-bottom: 60px;
 }
 
+#la_btn {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#la_btn:hover {
+    background-color: #85bb65;
+}
+
+#london_btn {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#london_btn:hover {
+    background-color: #85bb65;
+}
+
+#melbourne_btn {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#melbourne_btn:hover {
+    background-color: #85bb65;
+}
+
 .go-button {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -213,6 +246,10 @@ footer
 footer
 **************************/
 
+  /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
 #map {
-      height: 100%;
-    }
+    height: 500px;
+    width: 60%;
+    float: left;
+} 
